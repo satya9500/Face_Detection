@@ -11,7 +11,7 @@ while True:
             x,y,w,h=face
             frame = cv2.rectangle(frame, (x,y), (x+w,y+h), (0,255,0), 3)
        cv2.imshow("My Window", frame) 
-    key = cv2.waitKey(30)
+    key = cv2.waitKey(1)
     if(key == ord("q")):
         break
         
